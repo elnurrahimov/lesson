@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black{
+    width: 400px;
+    height: 250px;
+    background-color: #000;
+}
+.japan, .barchart{
+    display: flex;
+    justify-content: center;
+}
+.flag{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rosybrown;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: red;
+}
+.barchart{
+    margin-top: 400px;
+    margin-bottom: 200px;
+}
+.graph-container{
+    height: 300px;
+    width: 350px;
+    display: flex;
+    align-items: flex-end;
+    border: 2px solid rgb(68, 68, 68);
+}
+.graph{
+    background-color: lightskyblue;
+    width: 50px;
+    margin: 0 20px 15px;
+}
+.bar1{
+    height: 250px;
+} 
+.bar2{
+    height: 174px;
+} 
+.bar3{
+    height: 92px;
+} 
+.bar4{
+    height: 221px;
+}
